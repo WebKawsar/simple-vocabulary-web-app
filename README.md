@@ -13,7 +13,7 @@
 - Heroku
 
 
-## If you need installation
+## If you need to installation
 
 In the project directory, you can run:
 
