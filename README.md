@@ -10,7 +10,7 @@
 - MongoDB
 - Express.js
 - Material Ui
-- Heroku
+- Heroku (https://simple-vocabulary-web-app.herokuapp.com)
 
 
 ## If you need to installation
