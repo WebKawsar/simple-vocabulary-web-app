@@ -27,7 +27,7 @@ const useStyles = makeStyles({
         alignItems: "center"
     },
     box: {
-        position: "absolute",
+        position: "fixed",
         right: "0",
         bottom: "0"
     },
