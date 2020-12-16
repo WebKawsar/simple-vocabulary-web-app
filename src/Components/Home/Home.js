@@ -1,19 +1,13 @@
 import { Box, Container, Grid, makeStyles, Paper } from '@material-ui/core';
-import { Add, Search } from '@material-ui/icons';
+import { Add } from '@material-ui/icons';
 import React, { useEffect, useState } from 'react';
 import SingleWord from '../SingleWord/SingleWord';
-
-
-
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-
 
 
 const useStyles = makeStyles({
@@ -70,10 +64,9 @@ const Home = () => {
         setOpen(false);
     }
     
-
     useEffect(() => {
-
         if(addedWord){
+
             fetch(`https://cors-anywhere.herokuapp.com/https://od-api.oxforddictionaries.com/api/v2/entries/en-us/${addedWord}`, {
                 headers: {
                     app_id: appId,
@@ -99,12 +92,7 @@ const Home = () => {
 
     }, [addedWord])
 
-   
-
-
-
     useEffect(() => {
-
         if(data.word){
 
             fetch('https://simple-vocabulary-web-app.herokuapp.com/addNewWord', {
@@ -124,9 +112,6 @@ const Home = () => {
         }
 
     }, [data])
-
-
-
 
     //Load all dictionary data
     useEffect(() => {

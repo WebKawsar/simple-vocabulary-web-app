@@ -1,18 +1,8 @@
-import { Box, Container, DialogContentText, Grid, IconButton, makeStyles, Paper } from '@material-ui/core';
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-
-
-
-
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
+import { Box, DialogContentText, Grid, IconButton, makeStyles, Paper } from '@material-ui/core';
+import React, { useState } from 'react';
 import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import AccountCircle from '@material-ui/icons/AccountCircle';
 import { Close } from '@material-ui/icons';
 
 
@@ -35,9 +25,8 @@ const useStyles = makeStyles({
 
 const SingleWord = (props) => {
     const { _id, word, category, definations } = props.singleWord;
-
-
     const [SingleWordDetails, setSingleWordDetails] = useState({});
+
     const loadDetailsData = (id) => {
 
         fetch(`https://simple-vocabulary-web-app.herokuapp.com/wordById/${id}`)
@@ -60,7 +49,6 @@ const SingleWord = (props) => {
     const classes = useStyles();
     return (
         <>
-            
             <Grid item xs={12} sm={12} md={12}>
                 <Box onClick={() => handleClick(_id)}>
                     <Paper className={classes.paper}>
