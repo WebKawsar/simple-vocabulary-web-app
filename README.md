@@ -1,6 +1,6 @@
 # Simple Vocabulary Web App
-## [Live Site => https://simple-vocabulary-web-app.netlify.app](https://simple-vocabulary-web-app.netlify.app/)
-## [Server Site Repository => https://github.com/WebKawsar/simple-vocabulary-web-app-server](https://github.com/WebKawsar/simple-vocabulary-web-app-server)
+### [Live Site => https://simple-vocabulary-web-app.netlify.app](https://simple-vocabulary-web-app.netlify.app/)
+### [Server Site Repository => https://github.com/WebKawsar/simple-vocabulary-web-app-server](https://github.com/WebKawsar/simple-vocabulary-web-app-server)
 
 
 ## Technologies Used 
