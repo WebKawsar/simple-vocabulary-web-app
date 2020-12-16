@@ -3,7 +3,7 @@
 ### [Server Site Repository => https://github.com/WebKawsar/simple-vocabulary-web-app-server](https://github.com/WebKawsar/simple-vocabulary-web-app-server)
 
 
-### Technologies Used 
+## Technologies Used 
 - React
 - React router dom
 - Node
