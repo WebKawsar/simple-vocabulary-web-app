@@ -17,7 +17,7 @@
 
 In the project directory, you can run:
 
-### At first `git clone https://github.com/WebKawsar/automobile-searching-application.git`
+### At first `git clone https://github.com/WebKawsar/simple-vocabulary-web-app.git`
 ### Then `npm install`
 
 Successfully runs the app in the development mode.\
