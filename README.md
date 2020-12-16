@@ -17,9 +17,12 @@
 
 In the project directory, you can run:
 
+
 ### At first `git clone https://github.com/WebKawsar/simple-vocabulary-web-app.git`
 ### Then `npm install`
 
 Successfully runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
 
 ## Developed by Kawsar Ahmed
